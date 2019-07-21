@@ -57,6 +57,9 @@ The json file creates problem while dumping when TTL is being implementated usin
 When we try to access the database after closing the file it creates error which seems to be an internal problem that can be solved by modifying the TTLCache library.
 
 
+Inorder to import the library there should exist a blank file with name '__init__.py' in the same folder as DB.py.
+The test_DB.py is file which performs the unit test on few trivial cases.
+
 
 
 
